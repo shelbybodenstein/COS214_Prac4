@@ -7,12 +7,12 @@
 class TaskState{
 
 public:
-    TaskState* handleStart();
-    TaskState* handleSubmitForInspection();
-    TaskState* handlePass();
-    TaskState* handleFail();
+    virtual TaskState* handleStart();
+    virtual TaskState* handleSubmitForInspection();
+    virtual TaskState* handlePass();
+    virtual TaskState* handleFail();
 
-    virtual std::string getStatusName() = 0;
+    virtual std::string getStatusName() const = 0;
 
     virtual ~TaskState();
 

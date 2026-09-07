@@ -6,6 +6,8 @@
 class CompleteState : public TaskState{
 
 
+    public:
+    std::string getStatusName() const override;
 
 
 };

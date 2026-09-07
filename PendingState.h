@@ -5,8 +5,10 @@
 
 class PendingState : public TaskState{
 
+public:
+    TaskState* handleStart() override;
 
-
+    std::string getStatusName() const override;
 
 };
 

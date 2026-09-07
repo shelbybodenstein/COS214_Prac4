@@ -5,7 +5,11 @@
 
 class AwaitingInspectionState : public TaskState{
 
+    public:
+    TaskState* handlePass() override;
+    TaskState* handleFail() override;
 
+    std::string getStatusName() const override;
 
 
 };
