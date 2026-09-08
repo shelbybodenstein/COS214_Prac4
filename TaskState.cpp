@@ -1,8 +1,5 @@
 #include "TaskState.h" 
 
-
-
-
 TaskState* TaskState::handleStart(){
 
     return this;
