@@ -1,5 +1,4 @@
 #include "PendingState.h"
-
 #include "InProgressState.h"
 
 TaskState* PendingState::handleStart(){
