@@ -1,5 +1,4 @@
 #include "AwaitingInspectionState.h"
-
 #include "InProgressState.h"
 #include "CompleteState.h"
 
